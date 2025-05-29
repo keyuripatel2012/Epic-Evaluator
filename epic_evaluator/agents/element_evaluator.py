@@ -46,7 +46,6 @@ def evaluate_element(element_name, element_content):
             if "quality" in result:
                 q = result["quality"].strip().capitalize()
                 result["quality"] = q if q in ["High", "Medium", "Low"] else "Medium"
-            # ✅ Clean the text fields
             if "explanation" in result:
                 result["explanation"] = clean_text(result["explanation"])
             if "recommendations" in result:

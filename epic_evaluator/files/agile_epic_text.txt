@@ -1,0 +1,8 @@
+Title: Real-Time Fleet Tracking System for Logistics
+Problem Statement: Logistics companies lack visibility into vehicle locations and delivery progress, leading to delays and inefficiencies. This epic introduces a GPS-based tracking solution that updates fleet location in real time and predicts delivery timelines.
+User Stories:
+1.	As a logistics manager, I want to view all vehicle locations on a map, so I can monitor delivery progress.
+2.	As a delivery driver, I want to receive optimized route suggestions, so I can reach destinations faster.
+Product Outcome & Instrumentation: 
+-	Outcome: Improve on-time delivery rate by 20%, reduce average route time by 15%. 
+-	Metric: Average delivery delay in minutes, number of route deviations flagged by the system.

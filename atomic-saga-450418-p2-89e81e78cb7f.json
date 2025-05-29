@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "atomic-saga-450418-p2",
+  "private_key_id": "89e81e78cb7fb6794906d50fb570ba6f83c7e69c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcJW6mSPyu+RKV\nuIiGtIswXc/T30Gcn81m2NH5C79DhCNSOnNYG6VVZj6s5vZOAEnznQuk7aAt/B7S\ndC8wrbizQm6VddZD+3syDpKcHf+MYptk/zlklOU+did8gYxj+yjprPeKrEOE9zgj\n6d9wm/BT3m76rWRKE6viXrwmzX8+b5SyOr6yEIT1ZuuqzJn+wvsY2t2zRfw5cq+J\n0HD3r1Dwe+knzZofKDoXNyxhD6rIBsVROW0E5w2TDvpCQREPndOcAXd2d2S7UhNN\ngtYQCsXE7ESqbmgARbQg7tOCF8eifkr4sV8Su3vobQSaD4W3LlsRsxMb2jkWGXQN\n7e+wegZDAgMBAAECggEAIXDE0zjzYLe3+rekCZFV89xLe5knMJdqwnlx8o/I/Pkq\nJVyeQkLddD4q8xWdr1PRgqpiCYbYlLCXm0PFrXuvADkcfMbZRgLwPeawEF4+Uf72\nP7mHPZrDw85DI5+NBQaPmwfvldPRvALEE7DtKO1EmXmcM/R5c4HmAFuAmSDOfPzL\nwHxXj8R1AJnwSQZVVvxXU9+ir2GfWYe3X/xk7xLfxKrJso58V7qu/t1jcN1LPwPZ\nLk6Tt4xNZPxYrdyIBINpI+ib+oeNTUH6BQ9nDrN05SjQw3jXtDwZdzLQtVMu3z68\n4YtFbpfv5WFWd7gIEwZr4MeO8XtPC9jylbjkqNPFJQKBgQDVFM8h0XWT1kg30axL\nhG83u5ZqP9sS0E2f9Bvq8p1aCxdcOsqGHCxBkVrrO+i+QGM9ecXzA9vsFN+r6XiZ\n9/PpXUaOZFXqWk5psxmGA7ksixFdGyGG+ApHh/i0l1Jn2GoEHvFl+zsxSsrCOiKd\n3CPz4BF8KTJDmHJZnBJkCiaUlwKBgQC7mNvZNiXinGrBCTQI9h/Pug1d4eNxa2xq\nVzY8JDVcaooy/72YxdYCp26l4IfpCAZP3vhcGSMwklpuJL32I3v1OCjLz+vEEeLt\nPlleh0L3/wLAAujCaByIMo9X1K0FWa0vXLTbQ3ztLaX7n29sBItr9bc6CQpZ6hrO\ne8C+qVY1NQKBgAim2KYx4AlJqRMDI3DJhs6Hglr8DsQbyxsUiVGn2jW+v4sSJAj/\n+dgLs9pbS172NFFZsWzlmjdivZY4W5o81B2EmQnNDyP92LM3/3BOlGU3nFPgdyMI\nzToMTk/e2Qy4X82dCAYxBj1BISxzudYZCyiqz2rwLUdLWFFFIgYH13svAoGACMMR\n+ao6yMPPhKaeZJDCWZxyBWGIkwKWdL0QDm0OhPuA6vLg8yLCZStW0q6TCoJScSaT\n6RFPgHRFfwF+UeHEZ2axGRvkAitnsvcHi4+7xAOIKFm6b2IXexEJeuu3DRnsKdsl\no1wamKVaLE99D8mCjY9TeIV1k0+I4v4KuZ0FJsUCgYBdX9rqZfQYXgrAlhP6OXBu\nk9lp+p2c2Za8Yi/JxR1p2BnX8ZV4q5dO1In07KvW+bbFLywqWaw7rgT45XytLM+H\nkyQE64rurqr12UeBSfe46tGT0C+oXDwsLewnI82wG82ZQWMo3eyExMe9EO/4y31H\nlM7Oyi7YCb3Ag3eF6tIHNg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "myaccount@atomic-saga-450418-p2.iam.gserviceaccount.com",
+  "client_id": "110836516111010809179",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/myaccount%40atomic-saga-450418-p2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

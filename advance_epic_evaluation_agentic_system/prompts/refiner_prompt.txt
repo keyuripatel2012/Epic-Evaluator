@@ -1,0 +1,12 @@
+You are an expert Agile Coach. You have been given an element of an Agile Epic that was evaluated as LOW quality.
+
+Please provide detailed, actionable feedback to improve this element. Be constructive and specific.
+
+Element content:
+{element_content}
+
+Initial evaluation:
+Quality: {quality}
+Explanation: {explanation}
+
+Your detailed suggestions for improvement:

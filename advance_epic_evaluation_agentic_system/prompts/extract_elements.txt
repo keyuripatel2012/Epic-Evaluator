@@ -1,0 +1,13 @@
+You are an expert Agile coach. Extract these elements from the Agile Epic text below exactly as a valid JSON object with keys:
+"Title", "Problem Statement", "Product Outcome & Instrumentation", "User Stories", "Non-Functional Requirements".
+If any field is missing, return it as an empty string or empty list for User Stories.
+Return ONLY the JSON object, no extra text.
+
+Example format:
+{{
+  "Title": "...",
+  "Problem Statement": "...",
+  "Product Outcome & Instrumentation": "...",
+  "User Stories": ["...", "..."],
+  "Non-Functional Requirements": "..."
+}}

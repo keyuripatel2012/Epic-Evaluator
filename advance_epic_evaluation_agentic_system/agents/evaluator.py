@@ -31,7 +31,9 @@ def evaluate_element(name: str, content: str) -> dict:
         return {
             "quality": "Element Not Found",
             "explanation": f"No content provided for '{name}'.",
-            "recommendations": f"Consider adding a well-defined '{name}'."
+            "recommendations": f"Consider adding a well-defined '{name}'.",
+            "score": 0,
+            "feedback": f"'{name}' not found in the epic. Needs to be defined clearly."
         }
 
     response = chain.invoke({
@@ -44,9 +46,17 @@ def evaluate_element(name: str, content: str) -> dict:
         match = re.search(r"\{(?:[^{}]|(?R))*\}", raw, re.DOTALL)
         if match:
             result = json.loads(match.group())
+
+            # Normalize and clean
             result["quality"] = result.get("quality", "Medium").capitalize()
             result["explanation"] = clean_text(result.get("explanation", ""))
             result["recommendations"] = clean_text(result.get("recommendations", ""))
+
+            # ✅ Add score and feedback
+            score_mapping = {"High": 3, "Medium": 2, "Low": 1}
+            result["score"] = score_mapping.get(result["quality"], 2)
+            result["feedback"] = f"Element rated as {result['quality']} based on provided content."
+
             return result
         else:
             raise ValueError("No valid JSON found.")
@@ -54,8 +64,11 @@ def evaluate_element(name: str, content: str) -> dict:
         return {
             "quality": "Element Not Found",
             "explanation": f"Evaluation failed: {e}",
-            "recommendations": "Try simplifying or rewording the content."
+            "recommendations": "Try simplifying or rewording the content.",
+            "score": 0,
+            "feedback": f"Evaluation of '{name}' failed due to an error."
         }
+
 
 def evaluate_title_node(state: EpicEvaluationState) -> EpicEvaluationState:
     content = state.elements.get("Title") if state.elements else None

@@ -31,8 +31,11 @@ def refinement_node(state: EpicEvaluationState) -> EpicEvaluationState:
     response = chain.invoke({
         "element_name": element_name,
         "element_content": content,
-        "evaluation": json.dumps(evaluation.dict() if evaluation else {})
+        "evaluation": json.dumps(evaluation.dict() if evaluation else {}),
+        "explanation": evaluation.explanation if evaluation else "",
+        "quality": evaluation.quality if evaluation else ""
     })
+
 
     raw_text = response.content.strip()
     try:

@@ -3,7 +3,7 @@ from graph import compiled_workflow
 from models import EpicEvaluationState
 
 st.set_page_config(page_title="Epic Evaluator", layout="wide")
-st.title("Epic Evaluator")
+st.title("Advance Epic Evaluation Agentic System")
 
 epic_text = st.text_area("Paste Epic Text", height=200)
 
@@ -22,8 +22,8 @@ if st.button("Evaluate Epic"):
             step_count = 1
             for step in compiled_workflow.stream(initial_state):
                 for node_name, output in step.items():
-                    with st.expander(f"🔹 Step {step_count}: {node_name}", expanded=True):
-                        st.markdown(f"**Node:** `{node_name}`")
+                    with st.expander(f"**-> Step {step_count}: {node_name}**", expanded=True):
+                        st.markdown(f"*Node:* `{node_name}`")
                         st.json(output)
                     step_count += 1
 

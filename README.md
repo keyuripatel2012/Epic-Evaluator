@@ -1,7 +1,7 @@
 # Epic Evaluation Agentic System
 
 ## Overview
-Aa project ek multi-agent system che je Epic documents ne analyze kare che using LangGraph and Gemini LLMs. System structured parsing, conditional evaluation ane refinement logic vapre che.
+This is a project that is a multi-agent system that analyzes and parses epic documents using Langgraph and Gemini LLM. The system implements structured parsing, conditional evaluation, and refinement logic.
 
 ## Technologies
 - Python
@@ -25,6 +25,10 @@ Aa project ek multi-agent system che je Epic documents ne analyze kare che using
 | `router` | Decides next step based on evaluation |
 | `refine` | Enhances weak parts (if needed) |
 | `aggregate_report` | Final report compilation |
+
+## LangGraph Flow
+
+![Alt text](LangGraph.png)
 
 ## How to Run
 
